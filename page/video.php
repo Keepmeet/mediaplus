@@ -52,7 +52,7 @@ if( isset($_POST['tougao_form']) && $_POST['tougao_form'] == 'send') {
         // 投稿成功给博主发送邮件
         // somebody#example.com替换博主邮箱
         // My subject替换为邮件标题，content替换为邮件内容
-        wp_mail("Mark#huijui.com","Post Success!","Mark single post success");
+        wp_mail("somebody#example.com","Post Success!","Mark single post success");
         wp_die('Post Success!<a href="'.$current_url.'">Click here to return</a>', 'Post Success');
     }
     else {
